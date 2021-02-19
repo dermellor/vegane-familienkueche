@@ -41,3 +41,14 @@ taxonomies:
   category: category
   cusine: cuisine
   tag: tags
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true

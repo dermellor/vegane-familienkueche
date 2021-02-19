@@ -1,6 +1,8 @@
 # Hugo default output directory
 /public
 
+/content/recipes/_gsdata_
+
 ## OS Files
 # Windows
 Thumbs.db
