@@ -1,6 +1,6 @@
 disablePathToLower: true
 languageCode: en-us
-title: My Recipes
+title: Vegane Familienkueche
 theme: gochowdown
 googleAnalytics: 
 defaultcontentlanguage: en
@@ -13,8 +13,8 @@ pygmentsOptions: "linenos=table"
 permalinks:
   posts: /posts/:year/:month/:title
 params:
-  author: John Doe
-  description: Recipes used by the Doe family
+  author: Talitha Mellor
+  description: Vegane Rezepte für die ganze Familie
   keywords: 'recipes'
   favicon_32: /images/favicon-32x32.png
   favicon_16: /images/favicon-16x16.png
@@ -23,7 +23,7 @@ params:
   hidecopyright: false
   showNavTitle: false            # Boolean: show site title in nav bar
   custom_css: 
-    - style.css
+    - scss/style.css
 menu:
   main:
     - name: Home
