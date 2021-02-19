@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vegane Familienkueche</title>
-    <link>/</link>
+    <link>https://dermellor.github.io/vegane-familienkueche/</link>
     <description>Recent content on Vegane Familienkueche</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://dermellor.github.io/vegane-familienkueche/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

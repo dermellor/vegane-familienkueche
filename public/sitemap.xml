@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://dermellor.github.io/vegane-familienkueche/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/category/</loc>
+    <loc>https://dermellor.github.io/vegane-familienkueche/category/</loc>
   </url>
   
   <url>
-    <loc>/cuisine/</loc>
+    <loc>https://dermellor.github.io/vegane-familienkueche/cuisine/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://dermellor.github.io/vegane-familienkueche/tags/</loc>
   </url>
   
 </urlset>
