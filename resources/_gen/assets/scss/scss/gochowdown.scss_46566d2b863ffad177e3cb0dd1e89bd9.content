@@ -1859,7 +1859,4 @@ a:hover .image {
   .footer a {
     color: #007FFF; }
 
-body {
-  color: red !important; }
-
 /*# sourceMappingURL=gochowdown.css.map */
