@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title:  "Instant Erdbeer-Smoothiebowl "
-image: instant-erdbeer-smoothiebowl-.jpeg
+image: instant-erdbeer-smoothiebowl.jpeg
 date: 20. Februar 2021
 
 authorName: Talitha Mellor
