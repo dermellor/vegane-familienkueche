@@ -1,1 +1,1 @@
-This is an example of content you can put on the homepage.
+Herzlich Willkommen in der überraschend pfiffigen Küche veganer Ernährung.

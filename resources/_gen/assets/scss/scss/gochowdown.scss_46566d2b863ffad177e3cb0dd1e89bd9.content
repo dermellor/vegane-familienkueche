@@ -1,4 +1,5 @@
 @import url("https://rsms.me/inter/inter-ui.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans&display=swap");
 body, button {
   margin: 0; }
 
@@ -1717,7 +1718,7 @@ a:hover .image {
   height: 24px;
   width: 24px;
   border-radius: 5px;
-  border: 2px solid #007FFF;
+  border: 2px solid #B76E79;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1727,7 +1728,7 @@ a:hover .image {
 .checkbox-label input:checked ~ .checkbox-custom {
   background-color: #fff;
   border-radius: 5px;
-  border: 2px solid #007FFF;
+  border: 2px solid #B76E79;
   -webkit-transform: rotate(0deg) scale(1);
   -ms-transform: rotate(0deg) scale(1);
   transform: rotate(0deg) scale(1);
@@ -1741,7 +1742,7 @@ a:hover .image {
   height: 0px;
   width: 0px;
   border-radius: 5px;
-  border: solid #007FFF;
+  border: solid #B76E79;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(0deg) scale(0);
   -ms-transform: rotate(0deg) scale(0);
@@ -1762,7 +1763,7 @@ a:hover .image {
   top: 2px;
   width: 6px;
   height: 12px;
-  border: solid #007FFF;
+  border: solid #B76E79;
   border-width: 0 3px 3px 0;
   background-color: transparent;
   border-radius: 0; }
@@ -1774,10 +1775,10 @@ a:hover .image {
   .navigation a, .navigation span {
     display: inline;
     font-size: 1.2rem;
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.4;
-    color: #fff; }
+    color: black; }
   .navigation a:hover, .navigation a:focus {
     text-decoration: underline; }
   .navigation .nav-avatar {
@@ -1858,5 +1859,32 @@ a:hover .image {
   margin-top: 0.5rem; }
   .footer a {
     color: #007FFF; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif; }
+
+.bg-blue {
+  background-color: #B76E79; }
+
+.blue {
+  color: #B76E79; }
+
+.bg-blue-tile {
+  background-color: #B76E79; }
+
+@media all and (min-width: 40em) {
+  .bg-blue-tile:after {
+    box-shadow: inset 0 0 100px 20px #B76E79; } }
+
+.navigation {
+  background-color: #B76E79; }
+
+.xs-p2 img {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block; }
 
 /*# sourceMappingURL=gochowdown.css.map */

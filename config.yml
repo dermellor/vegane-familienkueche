@@ -16,39 +16,22 @@ permalinks:
 params:
   author: Talitha Mellor
   description: Vegane Rezepte für die ganze Familie
-  keywords: 'recipes'
+  keywords: 'rezepte, vegan'
   favicon_32: /images/favicon-32x32.png
   favicon_16: /images/favicon-16x16.png
   footercontent: 
-  hidecredits: false
-  hidecopyright: false
-  showNavTitle: false            # Boolean: show site title in nav bar
+  hidecredits: true
+  hidecopyright: true
+  showNavTitle: true            # Boolean: show site title in nav bar
 menu:
   main:
     - name: Home
       weight: 1
       url: /
-    - name: Category
+    - name: Kategorien
       weight: 2
       url: /category/
-    - name: Cuisine
-      weight: 3
-      url: /cuisine/
-    - name: Tags
-      weight: 4
-      url: /tags/
 taxonomies:
-  category: category
+  categories: category
   cusine: cuisine
   tag: tags
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true

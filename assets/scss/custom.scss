@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans&display=swap');
+
 body {
-    //color:red !important;
+    font-family: 'Open Sans', sans-serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif
+}
+
+.bg-blue  { 
+    background-color: $blue;
+}
+
+.blue {
+    color:$blue;
+}
+
+
+.bg-blue-tile {
+    background-color:$blue;
+}
+@media all and (min-width:40em){
+    .bg-blue-tile:after {
+        box-shadow:inset 0 0 100px 20px $blue;
+    }
+}
+
+.navigation {
+    background-color: $blue;
+}
+
+.xs-p2 {
+    img {
+        max-width:600px;
+        margin:0 auto;
+        display:block;
+    }
 }
